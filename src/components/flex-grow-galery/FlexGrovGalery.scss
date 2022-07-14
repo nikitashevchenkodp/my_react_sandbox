@@ -1,0 +1,11 @@
+.galery {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 79px);
+    overflow: hidden;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+    }
+}
+
