@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import { useMemo } from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Calculator from './components/calculator/Calculator';
+import Popup from './components/popup/Popup';
 
 function App() {
   const arr = useMemo(() => ['https://source.unsplash.com/gYl-UtwNg_I/1500x1500', 
@@ -21,6 +22,7 @@ function App() {
             <FlexGrovGalery items = {arr}/>
           </Route>
           <Route exact path='/calculator' component={Calculator}/>
+          <Route exact path='/popup' component={Popup}/>
         </Switch>
       </Router>
 

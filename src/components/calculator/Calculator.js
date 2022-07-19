@@ -22,6 +22,9 @@ const Calculator = () => {
     const operators = ['/', '*', '-', '+', '.', '='];
 
     const counting = (value) => {
+        if(field.slice(0, 1) == 0 && value == 0) {
+            return
+        }
         if(result && operators.includes(value)) {
             setField('')
             setField(result + value);
@@ -73,8 +76,7 @@ const Calculator = () => {
     const displayFontSize = () => {
         if(display.length > 30) {
             return 15
-        }
-        else if(display.length > 20) {
+        } else if(display.length > 20) {
             return 20
         } else if(display.length > 15) {
             return 28
