@@ -10,10 +10,10 @@ const Popup = ({children}) => {
 
   return (
       <div className='popup__page'>
-        <button className= "button__open" onClick={() => setOpen(open => !open)}>Click</button>
+        <button data-testid="popup-btn" className= "button__open" onClick={() => setOpen(open => !open)}>Click</button>
         <div className={modalClass}>
-            <div className={modalInnerClass}>
-                <div className="close">
+            <div data-testid="popup" className={modalInnerClass}>
+                <div data-testid="popup-close" className="close">
                     <AiOutlineCloseCircle className='button__close' onClick = {()=> setOpen(open => !open)}/>
                 </div>
                 
