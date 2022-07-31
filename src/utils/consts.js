@@ -1,6 +1,8 @@
 import Calculator from "../components/calculator/Calculator";
 import FlexGrovGalery from "../components/flex-grow-galery/FlexGrovGalery";
+import Form from "../components/Form/Form";
 import Popup from "../components/popup/Popup";
+import FormPage from "../pages/FormPage";
 
 export const PUBLICK_ROUTES = [
     {
@@ -14,6 +16,10 @@ export const PUBLICK_ROUTES = [
     {
         path: '/popup',
         Component: Popup
+    },
+    {
+        path: '/form',
+        Component: FormPage
     },
 
 ];

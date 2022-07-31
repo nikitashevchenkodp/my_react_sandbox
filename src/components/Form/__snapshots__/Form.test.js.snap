@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form/> to match snapshot 1`] = `
+<div>
+  <form
+    class="sc-bczRLJ bSdXcC form"
+    data-testid="form"
+  >
+    <fieldset
+      aria-busy="false"
+    >
+      <label
+        for="name"
+      >
+        First Name
+        <input
+          data-testid="name"
+          name="name"
+          placeholder="First name"
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        for="lastName"
+      >
+        Last name
+        <input
+          data-testid="lastName"
+          name="lastName"
+          placeholder="Last name"
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        for="phone"
+      >
+        Phone
+        <input
+          data-testid="phone"
+          name="phone"
+          placeholder="Phone"
+          required=""
+          type="phone"
+          value=""
+        />
+      </label>
+      <label
+        for="adress"
+      >
+        Adress
+        <input
+          data-testid="adress"
+          name="adress"
+          placeholder="Adress"
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        for="email"
+      >
+        EMAIL
+        <input
+          data-testid="email"
+          name="email"
+          placeholder="Email"
+          type="text"
+          value=""
+        />
+      </label>
+    </fieldset>
+    <button
+      data-testid="btn"
+      disabled=""
+      type="button"
+    >
+      Next Step
+    </button>
+  </form>
+</div>
+`;
