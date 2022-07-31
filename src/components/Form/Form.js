@@ -180,7 +180,7 @@ const Form = () => {
     const email = useInput('', {isEmail: true});
 
     const isValid = name.isValid && lastName.isValid && phone.isValid && adress.isValid
-
+    console.log('test');
   return (
     <FormStyles data-testid="form" className='form'>
         <fieldset aria-busy="false">
