@@ -1,0 +1,15 @@
+svg {
+  text {
+    font-family: 'FilmotypeMajor';
+    stroke: red;
+    stroke-width: 2px;
+    fill: #fff;
+  }
+  .triangle-group {
+    polygon {
+      fill: #008b6f;
+      stroke: #fff;
+      stroke-width: 1px;
+    }
+  }
+}

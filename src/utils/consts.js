@@ -5,6 +5,7 @@ import Dnd from '../components/Dnd/Dnd';
 import FlexGrovGalery from '../components/flex-grow-galery/FlexGrovGalery';
 import Form from '../components/Form/Form';
 import Popup from '../components/popup/Popup';
+import Svg from '../components/Svg/Svg';
 import MakeNewNumber from '../components/testHooks/MakeNewNumber';
 import FormPage from '../pages/FormPage';
 import TransitionTestPage from '../pages/TransitionTestPage';
@@ -45,5 +46,9 @@ export const PUBLICK_ROUTES = [
   {
     path: '/reorder',
     Component: AnimateReorderList,
+  },
+  {
+    path: '/svg',
+    Component: Svg,
   },
 ];
